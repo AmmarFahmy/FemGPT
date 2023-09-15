@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 st.title("FemGPT")
-st.set_page_config(page_title="Chat with the FemGPT, fine-tune to focus on female health issues", page_icon="🩺", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Chat with the FemGPT, fine-tune to focus on female health issues", page_icon="🩺")
 
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
