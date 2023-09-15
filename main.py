@@ -1,10 +1,7 @@
 import openai
 import streamlit as st
 
-
-
 st.title("FemGPT")
-st.info("Chat with the FemGPT, fine-tune GPT to focus on female health issues", icon="🩺📃")
          
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
