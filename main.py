@@ -2,9 +2,10 @@ import openai
 import streamlit as st
 
 
-st.set_page_config(page_title="Chat with the FemGPT, fine-tune to focus on female health issues", page_icon="🩺")
-st.title("FemGPT")
 
+st.title("FemGPT", icon="🩺")
+st.info("Chat with the FemGPT, fine-tune GPT to focus on female health issues", icon="📃")
+         
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 if "openai_model" not in st.session_state:
