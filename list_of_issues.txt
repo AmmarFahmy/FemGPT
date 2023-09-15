@@ -1,0 +1,11 @@
+List of female related health issues focused in the dataset.
+
+Menopause
+Breast cancer
+Polycystic ovary syndrome
+Sexually transmitted infection
+Urinary tract infection
+Pregnancy
+Menstrual problem
+Uterine Fibroids
+Menstruation
